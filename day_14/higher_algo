@@ -1,0 +1,17 @@
+create a function to compare follower count. follower count is an entry (key, value pair) in a dictionary
+
+create a function to hold all game processes right from picking the random instagram account to asking next guess
+
+game processes:
+- select random account from list of accounts for first account
+- do same for second account
+- prompt user for account with the highest followers
+- use compare function to get the account with the highest follower count and compare with user's choice.
+if user's choice is correct, call game function again.
+if not, print game logo, error message and quit game
+
+
+OPTIONS:
+define game function with two accounts as parameters
+using those arguments, after the first round, call the function again but with second account as first argument and find random account as second argument
+

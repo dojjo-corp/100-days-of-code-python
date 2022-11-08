@@ -1,0 +1,691 @@
+
+
+Mon Oct 24 19:12:08 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-47-generic (#51-Ubuntu SMP Thu Aug 11 07:51:15 UTC 2022) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'LC_CTYPE=en_US.UTF-8;LC_NUMERIC=en_GB.UTF-8;LC_TIME=en_GB.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=en_GB.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=en_GB.UTF-8;LC_NAME=en_GB.UTF-8;LC_ADDRESS=en_GB.UTF-8;LC_TELEPHONE=en_GB.UTF-8;LC_MEASUREMENT=en_GB.UTF-8;LC_IDENTIFICATION=en_GB.UTF-8'.
+
+
+Mon Oct 24 19:12:10 2022
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-47-generic (#51-Ubuntu SMP Thu Aug 11 07:51:15 UTC 2022) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop15 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - WDC WD10SPZX-24Z10, S/N:WD-WX92AA01FTAV, FW:05.01A05
+Disk /dev/sdb - 4026 MB / 3840 MiB - CHS 1022 124 62, sector size=512 - Generic Flash Disk, FW:8.07
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 238 MB / 227 MiB - 466568 sectors (RO), sector size=512
+Disk /dev/loop10 - 76 MB / 72 MiB - 149072 sectors (RO), sector size=512
+Disk /dev/loop11 - 50 MB / 47 MiB - 98272 sectors (RO), sector size=512
+Disk /dev/loop12 - 361 MB / 345 MiB - 706624 sectors (RO), sector size=512
+Disk /dev/loop13 - 50 MB / 47 MiB - 98280 sectors (RO), sector size=512
+Disk /dev/loop14 - 366 MB / 349 MiB - 716568 sectors (RO), sector size=512
+Disk /dev/loop2 - 120 MB / 114 MiB - 235368 sectors (RO), sector size=512
+Disk /dev/loop3 - 238 MB / 227 MiB - 466568 sectors (RO), sector size=512
+Disk /dev/loop4 - 120 MB / 114 MiB - 235496 sectors (RO), sector size=512
+Disk /dev/loop5 - 180 MB / 172 MiB - 352512 sectors (RO), sector size=512
+Disk /dev/loop6 - 58 MB / 55 MiB - 113792 sectors (RO), sector size=512
+Disk /dev/loop7 - 73 MB / 70 MiB - 144208 sectors (RO), sector size=512
+Disk /dev/loop8 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop9 - 10092 KB / 9856 KiB - 19712 sectors (RO), sector size=512
+
+Partition table type (auto): None
+Disk /dev/sdb - 4026 MB / 3840 MiB - Generic Flash Disk
+Partition table type: None
+
+Interface Advanced
+FAT32 at 0/0/1
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: cluster=2(0x2), pos=16384
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+set_FAT_info: name from BS used
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+
+FAT: cluster=2(0x2), pos=16384
+Directory /
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 System Volume Information
+FAT: cluster=3(0x3), pos=16392
+Directory /System Volume Information
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 .
+       0 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 ..
+       4 -rwxr-xr-x     0      0        12 24-Oct-2022 18:51 WPSettings.dat
+       5 -rwxr-xr-x     0      0        76 24-Oct-2022 18:51 IndexerVolumeGuid
+FAT: cluster=2(0x2), pos=16384
+Directory /
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 System Volume Information
+FAT: cluster=3(0x3), pos=16392
+Directory /System Volume Information
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 .
+       0 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 ..
+       4 -rwxr-xr-x     0      0        12 24-Oct-2022 18:51 WPSettings.dat
+       5 -rwxr-xr-x     0      0        76 24-Oct-2022 18:51 IndexerVolumeGuid
+FAT: cluster=3(0x3), pos=16392
+Directory /System Volume Information
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 .
+       0 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 ..
+       4 -rwxr-xr-x     0      0        12 24-Oct-2022 18:51 WPSettings.dat
+       5 -rwxr-xr-x     0      0        76 24-Oct-2022 18:51 IndexerVolumeGuid
+FAT: cluster=3(0x3), pos=16392
+Directory /System Volume Information
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 .
+       0 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 ..
+       4 -rwxr-xr-x     0      0        12 24-Oct-2022 18:51 WPSettings.dat
+       5 -rwxr-xr-x     0      0        76 24-Oct-2022 18:51 IndexerVolumeGuid
+FAT: cluster=2(0x2), pos=16384
+Directory /
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 System Volume Information
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+Boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+Backup boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+First sectors (boot code and partition information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+Boot sector                        Backup boot sector
+0000 eb58904d 53444f53   .X.MSDOS  eb58904d 53444f53   .X.MSDOS
+0008 352e3000 02081e04   5.0.....  352e3000 02081e04   5.0.....
+0010 02000000 00f80000   ........  02000000 00f80000   ........
+0018 3f00ff00 00000000   ?.......  3f00ff00 00000000   ?.......
+0020 00007800 f11d0000   ..x.....  00007800 f11d0000   ..x.....
+0028 00000000 02000000   ........  00000000 02000000   ........
+0030 01000600 00000000   ........  01000600 00000000   ........
+0038 00000000 00000000   ........  00000000 00000000   ........
+0040 80012911 55b1ba4e   ..).U..N  80002911 55b1ba4e   ..).U..N
+0048 4f204e41 4d452020   O NAME    4f204e41 4d452020   O NAME  
+0050 20204641 54333220     FAT32   20204641 54333220     FAT32 
+0058 202033c9 8ed1bcf4     3.....  202033c9 8ed1bcf4     3.....
+0060 7b8ec18e d9bd007c   {......|  7b8ec18e d9bd007c   {......|
+0068 88564088 4e028a56   .V@.N..V  88564088 4e028a56   .V@.N..V
+0070 40b441bb aa55cd13   @.A..U..  40b441bb aa55cd13   @.A..U..
+0078 721081fb 55aa750a   r...U.u.  721081fb 55aa750a   r...U.u.
+0080 f6c10174 05fe4602   ...t..F.  f6c10174 05fe4602   ...t..F.
+0088 eb2d8a56 40b408cd   .-.V@...  eb2d8a56 40b408cd   .-.V@...
+0090 137305b9 ffff8af1   .s......  137305b9 ffff8af1   .s......
+0098 660fb6c6 40660fb6   f...@f..  660fb6c6 40660fb6   f...@f..
+00A0 d180e23f f7e286cd   ...?....  d180e23f f7e286cd   ...?....
+00A8 c0ed0641 660fb7c9   ...Af...  c0ed0641 660fb7c9   ...Af...
+00B0 66f7e166 8946f883   f..f.F..  66f7e166 8946f883   f..f.F..
+00B8 7e160075 39837e2a   ~..u9.~*  7e160075 39837e2a   ~..u9.~*
+00C0 00773366 8b461c66   .w3f.F.f  00773366 8b461c66   .w3f.F.f
+00C8 83c00cbb 0080b901   ........  83c00cbb 0080b901   ........
+00D0 00e82c00 e9a803a1   ..,.....  00e82c00 e9a803a1   ..,.....
+00D8 f87d80c4 7c8bf0ac   .}..|...  f87d80c4 7c8bf0ac   .}..|...
+00E0 84c07417 3cff7409   ..t.<.t.  84c07417 3cff7409   ..t.<.t.
+00E8 b40ebb07 00cd10eb   ........  b40ebb07 00cd10eb   ........
+00F0 eea1fa7d ebe4a17d   ...}...}  eea1fa7d ebe4a17d   ...}...}
+00F8 80ebdf98 cd16cd19   ........  80ebdf98 cd16cd19   ........
+0100 6660807e 02000f84   f`.~....  6660807e 02000f84   f`.~....
+0108 2000666a 00665006    .fj.fP.  2000666a 00665006    .fj.fP.
+0110 53666810 000100b4   Sfh.....  53666810 000100b4   Sfh.....
+0118 428a5640 8bf4cd13   B.V@....  428a5640 8bf4cd13   B.V@....
+0120 66586658 66586658   fXfXfXfX  66586658 66586658   fXfXfXfX
+0128 eb33663b 46f87203   .3f;F.r.  eb33663b 46f87203   .3f;F.r.
+0130 f9eb2a66 33d2660f   ..*f3.f.  f9eb2a66 33d2660f   ..*f3.f.
+0138 b74e1866 f7f1fec2   .N.f....  b74e1866 f7f1fec2   .N.f....
+0140 8aca668b d066c1ea   ..f..f..  8aca668b d066c1ea   ..f..f..
+0148 10f7761a 86d68a56   ..v....V  10f7761a 86d68a56   ..v....V
+0150 408ae8c0 e4060acc   @.......  408ae8c0 e4060acc   @.......
+0158 b80102cd 1366610f   .....fa.  b80102cd 1366610f   .....fa.
+0160 8274ff81 c3000266   .t.....f  8274ff81 c3000266   .t.....f
+0168 40497594 c3424f4f   @Iu..BOO  40497594 c3424f4f   @Iu..BOO
+0170 544d4752 20202020   TMGR      544d4752 20202020   TMGR    
+0178 00000000 00000000   ........  00000000 00000000   ........
+0180 00000000 00000000   ........  00000000 00000000   ........
+0188 00000000 00000000   ........  00000000 00000000   ........
+0190 00000000 00000000   ........  00000000 00000000   ........
+0198 00000000 00000000   ........  00000000 00000000   ........
+01A0 00000000 00000000   ........  00000000 00000000   ........
+01A8 00000000 0d0a4469   ......Di  00000000 0d0a4469   ......Di
+01B0 736b2065 72726f72   sk error  736b2065 72726f72   sk error
+01B8 ff0d0a50 72657373   ...Press  ff0d0a50 72657373   ...Press
+01C0 20616e79 206b6579    any key  20616e79 206b6579    any key
+01C8 20746f20 72657374    to rest  20746f20 72657374    to rest
+01D0 6172740d 0a000000   art.....  6172740d 0a000000   art.....
+01D8 00000000 00000000   ........  00000000 00000000   ........
+01E0 00000000 00000000   ........  00000000 00000000   ........
+01E8 00000000 00000000   ........  00000000 00000000   ........
+01F0 00000000 00000000   ........  00000000 00000000   ........
+01F8 ac01b901 000055aa   ......U.  ac01b901 000055aa   ......U.
+0200 52526141 00000000   RRaA....  52526141 00000000   RRaA....
+0208 00000000 00000000   ........  00000000 00000000   ........
+0210 00000000 00000000   ........  00000000 00000000   ........
+0218 00000000 00000000   ........  00000000 00000000   ........
+0220 00000000 00000000   ........  00000000 00000000   ........
+0228 00000000 00000000   ........  00000000 00000000   ........
+0230 00000000 00000000   ........  00000000 00000000   ........
+0238 00000000 00000000   ........  00000000 00000000   ........
+0240 00000000 00000000   ........  00000000 00000000   ........
+0248 00000000 00000000   ........  00000000 00000000   ........
+0250 00000000 00000000   ........  00000000 00000000   ........
+0258 00000000 00000000   ........  00000000 00000000   ........
+0260 00000000 00000000   ........  00000000 00000000   ........
+0268 00000000 00000000   ........  00000000 00000000   ........
+0270 00000000 00000000   ........  00000000 00000000   ........
+0278 00000000 00000000   ........  00000000 00000000   ........
+0280 00000000 00000000   ........  00000000 00000000   ........
+0288 00000000 00000000   ........  00000000 00000000   ........
+0290 00000000 00000000   ........  00000000 00000000   ........
+0298 00000000 00000000   ........  00000000 00000000   ........
+02A0 00000000 00000000   ........  00000000 00000000   ........
+02A8 00000000 00000000   ........  00000000 00000000   ........
+02B0 00000000 00000000   ........  00000000 00000000   ........
+02B8 00000000 00000000   ........  00000000 00000000   ........
+02C0 00000000 00000000   ........  00000000 00000000   ........
+02C8 00000000 00000000   ........  00000000 00000000   ........
+02D0 00000000 00000000   ........  00000000 00000000   ........
+02D8 00000000 00000000   ........  00000000 00000000   ........
+02E0 00000000 00000000   ........  00000000 00000000   ........
+02E8 00000000 00000000   ........  00000000 00000000   ........
+02F0 00000000 00000000   ........  00000000 00000000   ........
+02F8 00000000 00000000   ........  00000000 00000000   ........
+0300 00000000 00000000   ........  00000000 00000000   ........
+0308 00000000 00000000   ........  00000000 00000000   ........
+0310 00000000 00000000   ........  00000000 00000000   ........
+0318 00000000 00000000   ........  00000000 00000000   ........
+0320 00000000 00000000   ........  00000000 00000000   ........
+0328 00000000 00000000   ........  00000000 00000000   ........
+0330 00000000 00000000   ........  00000000 00000000   ........
+0338 00000000 00000000   ........  00000000 00000000   ........
+0340 00000000 00000000   ........  00000000 00000000   ........
+0348 00000000 00000000   ........  00000000 00000000   ........
+0350 00000000 00000000   ........  00000000 00000000   ........
+0358 00000000 00000000   ........  00000000 00000000   ........
+0360 00000000 00000000   ........  00000000 00000000   ........
+0368 00000000 00000000   ........  00000000 00000000   ........
+0370 00000000 00000000   ........  00000000 00000000   ........
+0378 00000000 00000000   ........  00000000 00000000   ........
+0380 00000000 00000000   ........  00000000 00000000   ........
+0388 00000000 00000000   ........  00000000 00000000   ........
+0390 00000000 00000000   ........  00000000 00000000   ........
+0398 00000000 00000000   ........  00000000 00000000   ........
+03A0 00000000 00000000   ........  00000000 00000000   ........
+03A8 00000000 00000000   ........  00000000 00000000   ........
+03B0 00000000 00000000   ........  00000000 00000000   ........
+03B8 00000000 00000000   ........  00000000 00000000   ........
+03C0 00000000 00000000   ........  00000000 00000000   ........
+03C8 00000000 00000000   ........  00000000 00000000   ........
+03D0 00000000 00000000   ........  00000000 00000000   ........
+03D8 00000000 00000000   ........  00000000 00000000   ........
+03E0 00000000 72724161   ....rrAa  00000000 72724161   ....rrAa
+03E8 c0440400 02000000   .D......  ffffffff 02000000   ........
+03F0 00000000 00000000   ........  00000000 00000000   ........
+03F8 00000000 000055aa   ......U.  00000000 000055aa   ......U.
+0400 00000000 00000000   ........  00000000 00000000   ........
+0408 00000000 00000000   ........  00000000 00000000   ........
+0410 00000000 00000000   ........  00000000 00000000   ........
+0418 00000000 00000000   ........  00000000 00000000   ........
+0420 00000000 00000000   ........  00000000 00000000   ........
+0428 00000000 00000000   ........  00000000 00000000   ........
+0430 00000000 00000000   ........  00000000 00000000   ........
+0438 00000000 00000000   ........  00000000 00000000   ........
+0440 00000000 00000000   ........  00000000 00000000   ........
+0448 00000000 00000000   ........  00000000 00000000   ........
+0450 00000000 00000000   ........  00000000 00000000   ........
+0458 00000000 00000000   ........  00000000 00000000   ........
+0460 00000000 00000000   ........  00000000 00000000   ........
+0468 00000000 00000000   ........  00000000 00000000   ........
+0470 00000000 00000000   ........  00000000 00000000   ........
+0478 00000000 00000000   ........  00000000 00000000   ........
+0480 00000000 00000000   ........  00000000 00000000   ........
+0488 00000000 00000000   ........  00000000 00000000   ........
+0490 00000000 00000000   ........  00000000 00000000   ........
+0498 00000000 00000000   ........  00000000 00000000   ........
+04A0 00000000 00000000   ........  00000000 00000000   ........
+04A8 00000000 00000000   ........  00000000 00000000   ........
+04B0 00000000 00000000   ........  00000000 00000000   ........
+04B8 00000000 00000000   ........  00000000 00000000   ........
+04C0 00000000 00000000   ........  00000000 00000000   ........
+04C8 00000000 00000000   ........  00000000 00000000   ........
+04D0 00000000 00000000   ........  00000000 00000000   ........
+04D8 00000000 00000000   ........  00000000 00000000   ........
+04E0 00000000 00000000   ........  00000000 00000000   ........
+04E8 00000000 00000000   ........  00000000 00000000   ........
+04F0 00000000 00000000   ........  00000000 00000000   ........
+04F8 00000000 00000000   ........  00000000 00000000   ........
+0500 00000000 00000000   ........  00000000 00000000   ........
+0508 00000000 00000000   ........  00000000 00000000   ........
+0510 00000000 00000000   ........  00000000 00000000   ........
+0518 00000000 00000000   ........  00000000 00000000   ........
+0520 00000000 00000000   ........  00000000 00000000   ........
+0528 00000000 00000000   ........  00000000 00000000   ........
+0530 00000000 00000000   ........  00000000 00000000   ........
+0538 00000000 00000000   ........  00000000 00000000   ........
+0540 00000000 00000000   ........  00000000 00000000   ........
+0548 00000000 00000000   ........  00000000 00000000   ........
+0550 00000000 00000000   ........  00000000 00000000   ........
+0558 00000000 00000000   ........  00000000 00000000   ........
+0560 00000000 00000000   ........  00000000 00000000   ........
+0568 00000000 00000000   ........  00000000 00000000   ........
+0570 00000000 00000000   ........  00000000 00000000   ........
+0578 00000000 00000000   ........  00000000 00000000   ........
+0580 00000000 00000000   ........  00000000 00000000   ........
+0588 00000000 00000000   ........  00000000 00000000   ........
+0590 00000000 00000000   ........  00000000 00000000   ........
+0598 00000000 00000000   ........  00000000 00000000   ........
+05A0 00000000 00000000   ........  00000000 00000000   ........
+05A8 00000000 00000000   ........  00000000 00000000   ........
+05B0 00000000 00000000   ........  00000000 00000000   ........
+05B8 00000000 00000000   ........  00000000 00000000   ........
+05C0 00000000 00000000   ........  00000000 00000000   ........
+05C8 00000000 00000000   ........  00000000 00000000   ........
+05D0 00000000 00000000   ........  00000000 00000000   ........
+05D8 00000000 00000000   ........  00000000 00000000   ........
+05E0 00000000 00000000   ........  00000000 00000000   ........
+05E8 00000000 00000000   ........  00000000 00000000   ........
+05F0 00000000 00000000   ........  00000000 00000000   ........
+05F8 00000000 000055aa   ......U.  00000000 000055aa   ......U.
+
+FAT32
+sector_size  512 512
+cluster_size 8 8
+reserved     1054 1054
+fats         2 2
+dir_entries  0 0
+sectors      0 0
+media        F8 F8
+fat_length   0 0
+secs_track   63 63
+heads        255 255
+hidden       0 0
+total_sect   7864320 7864320
+fat32_length 7665 7665
+flags        0000 0000
+version      0.0  0.0
+root_cluster 2 2
+info_sector  1 1
+backup_boot  6 6
+free_count   279744 uninitialised
+next_free    2 2
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+Boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+Backup boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+First sectors (boot code and partition information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+Boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+Backup boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+First sectors (boot code and partition information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 16384 root cluster : 2
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+heads/cylinder 255 (FAT) != 124 (HD)
+sect/track 63 (FAT) != 62 (HD)
+Boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+Backup boot sector
+Warning: number of heads/cylinder mismatches 255 (FAT) != 124 (HD)
+Warning: number of sectors per track mismatches 63 (FAT) != 62 (HD)
+OK
+
+First sectors (boot code and partition information) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+rebuild_FAT_BS p_fat12 0, p_fat16 0, p_fat32 1
+fat_find_type(max_offset=61504, p_fat12=0, p_fat16=0, p_fat32=1, debug=1, dump_ind=0)
+FAT32 at 1054(0/17/1), nbr=1
+FAT32 at 8719(1/16/40), nbr=1
+FAT32 at 51891(6/92/60), nbr=1
+FAT32 at 51893(6/92/62), nbr=1
+FAT32 at 51894(6/93/1), nbr=1
+FAT32 at 51895(6/93/2), nbr=1
+first_fat 1054, second_fat 8719
+FAT : 32, reserved=1054, fat_length=7665
+sectors_per_cluster 8
+next_free 6, free_count 279744
+fat32_find_root_cluster(sectors_per_cluster=8,no_of_cluster=980992,reserved=1054,fat_length=7665,expert=0,first_free_cluster=6)
+Potential root_cluster 2
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 System Volume Information
+First-level directory found at cluster 3
+       3 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 .
+       0 drwxr-xr-x     0      0         0 24-Oct-2022 18:51 ..
+       4 -rwxr-xr-x     0      0        12 24-Oct-2022 18:51 WPSettings.dat
+       5 -rwxr-xr-x     0      0        76 24-Oct-2022 18:51 IndexerVolumeGuid
+Potential root_cluster 175564
+  175565 -rwxr-xr-x     0      0  83083744 24-Oct-2022 18:47 VSCodeUserSetup-x64-1.71.0.exe
+             New / Current boot sector
+FAT32
+sector_size  512 512
+cluster_size 8 8
+reserved     1054 1054
+fats         2 2
+dir_entries  0 0
+sectors      0 0
+media        F8 F8
+fat_length   0 0
+secs_track   62 63
+heads        124 255
+hidden       0 0
+total_sect   7864320 7864320
+fat32_length 7665 7665
+flags        0000 0000
+version      0.0  0.0
+root_cluster 175564 2
+info_sector  1 1
+backup_boot  6 6
+free_count   uninitialised 279744
+next_free    uninitialised 2
+Extrapolated boot sector and current boot sector are different.
+Write new boot!
+
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+Boot sector
+OK
+
+Backup boot sector
+OK
+
+Sectors are identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+FAT: Directory entry is marked as free.
+FAT: cluster=175564(0x2adcc), pos=1420880
+Directory /
+  175565 -rwxr-xr-x     0      0  83083744 24-Oct-2022 18:47 VSCodeUserSetup-x64-1.71.0.exe
+
+fat32_boot_sector
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+Boot sector
+OK
+
+Backup boot sector
+OK
+
+Sectors are identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+Analyse Disk /dev/sdb - 4026 MB / 3840 MiB - CHS 1022 124 62
+FAT32 at 0/0/1
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: Directory entry is marked as free.
+FAT: cluster=175564(0x2adcc), pos=1420880
+FAT32 at 0/0/1
+Info: size boot_sector 7864320, partition 7864320
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+set_FAT_info: name from BS used
+Current partition structure:
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+
+search_part()
+Disk /dev/sdb - 4026 MB / 3840 MiB - CHS 1022 124 62
+FAT32 at 0/0/1
+FAT1 : 1054-8718
+FAT2 : 8719-16383
+start_rootdir : 1420880 root cluster : 175564
+Data : 16384-7864319
+sectors : 7864320
+cluster_size : 8
+no_of_cluster : 980992 (2 - 980993)
+fat_length 7665 calculated 7665
+set_FAT_info: name from BS used
+
+FAT32 at 0/0/1
+FAT: Directory entry is marked as free.
+FAT: cluster=175564(0x2adcc), pos=1420880
+     FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+
+Results
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+     FAT32, blocksize=4096, 4026 MB / 3840 MiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 7864320 linear /dev/sdb 0" | dmsetup create test0
+
+interface_write()
+   P FAT32                    0   0  1  1022 115 54    7864320 [NO NAME]
+ 
+Write isn't available because the partition table type "None" has been selected.
+
+TestDisk exited normally.

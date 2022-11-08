@@ -1,0 +1,26 @@
+word_to_guess = String
+int n = len(String)
+for i = 0 to n-1:
+	new_String += "*"
+
+//to hold nummber of wrong inputs from user
+int wrong_choices = 0
+
+do{
+	print new_String
+	get user_guess
+	trueChar = False
+	for j = 0 to n-1:
+		if new_String[j] == user_guess:
+			trueChar = True
+			new_String[j] = user_guess
+	if trueChar == False:
+		wrong_choices += 1	
+	draw hangman(wrong_choices)
+} while hangman_not_full or new_String != String
+
+
+	 O
+	/|\
+	 |
+	/ \

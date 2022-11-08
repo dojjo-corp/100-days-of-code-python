@@ -1,0 +1,51 @@
+=>functions to use
+def sum_of_cards(cards):
+aum_of_cards = 0
+for i in cards:
+sum_of_cards += i
+return sum_of_cards
+
+=>Terms used in blackjack
+Hit = call for a card
+break/bust = have cards with a sum total above 21
+push = tie with the dealer
+stand = maintain your cards / not hit for the round
+
+Basic Rule:
+=>players must have cards, the sum of which must be as close to 21 as possible. 
+list_of_cards = [A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K]
+user_cards = []
+dealer_cards = []
+
+
+=>Cards with numbers represent their face-values, special cards (jack, king, queen) all represent value of 10 each.
+actual_cards_values = [10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+
+=>Round begins with each party given a random card
+user_cards[n] = random.choice(actual_cards_values)
+dealer_cards[n] = random.choice(actual_cards_values)
+where n = 0 (first round)
+
+=>USER can decide not to call for another card, at which point DEALER shows their cards and a check is made to know who won the round.
+if user not takes_card:
+user_cards[n] = 0
+if dealer not takes_card:
+dealer_cards[n] = 0
+where n is the round position
+
+=>When DEALER's cards sum up to 16 or less, they must take another card each rep till it exceeds that limit. Then they may also decide not to take anymore till round ends.
+while looping_in_game:
+if sum_of_cards(dealer_cards) < 17:
+dealer takes_card
+
+=>With an infinte number of cards in the deck, both dealer and USER start with a card each (known to both parties)
+
+=>The party with the closest-to-21 set of cards wins.
+limit_reached = False
+while limit_reached == False:
+if sum_of_cards(user_cards) < sum_of_cards(dealer_cards):
+print("YOU LOST!")
+elif if sum_of_cards(dealer_cards) < sum_of_cards(user_cards):
+print("YOU WIN!")
+else:
+print("IT'S A DRAW") 
