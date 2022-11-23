@@ -4,7 +4,3 @@ If there are any better ways of solving any of the challenges, please do not hes
 
 The challenges have been categorized based on difficulty levels: Beginners, Intermediate, Advanced and Professional.
 Currently just finished all Beginner's levels!
-
-_Currently facing issues merging the IntermediateChallenges branch with the master (base) branch. 
-I'm working on solving it so kindly switch to the IntermediateChallenges branch to get the updated progress. 
-Any help in resolving the issue will be appreciated. Thanks!_
