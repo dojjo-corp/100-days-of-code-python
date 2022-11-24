@@ -52,11 +52,11 @@ if input("Type 'start' to begin game\n>> ").lower() == "start":
         if to_continue == 'y':
             # generate random card for user again
             user_cards.append(random.choice(card_list).lower())
-            user_values.append(get_value(user_cards[round_no], user="user"))
+            user_values.append(get_value(user_cards[round_no], side="user"))
 
             # do same for dealer
             dealer_cards.append(random.choice(card_list).lower())
-            dealer_values.append(get_value(dealer_cards[round_no], user="dealer"))
+            dealer_values.append(get_value(dealer_cards[round_no], side="dealer"))
         
         elif to_continue == "n":
             limit_reached = True
