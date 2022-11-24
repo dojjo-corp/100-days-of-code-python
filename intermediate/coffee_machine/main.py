@@ -138,9 +138,13 @@ while next_order:
 
     # TODO: print report of resources when requested
     elif user_input == "report":
+        resource_table = PrettyTable()
+        resource_table.field_names = ('Resource', 'Amount')
         for entry in resources:
-            print(f"{entry}: {resources[entry]}")
-        print(f"Profit: ${revenue}")
+            res_row = [f"{entry}", f"{resources[entry]}"]
+            resource_table.add_row(res_row)
+        resource_table.add_row([f"Profit", f"${revenue}"])
+        print(resource_table)
 
     # TODO: display entire menu
     elif user_input == "menu":
