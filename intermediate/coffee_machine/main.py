@@ -1,3 +1,5 @@
+from prettytable import PrettyTable
+
 MENU = {
     "espresso": {
         "ingredients": {
@@ -73,6 +75,14 @@ def to_dollars(amount, base_currency):
 
 # loop-control flag
 next_order = True
+commands = {
+        'menu': 'Display the coffee menu', 
+        'report': 'Display a report on resources available', 
+        'restock': 'Allow for resources to be restocked', 
+        'off': 'Turn off coffee maker machine', 
+        'help': 'Display this help menu', 
+        }
+print("ps.: Type 'help' to display control-commands\n")
 
 while next_order:
     # TODO: prompt user for input (drink initially)
@@ -115,6 +125,16 @@ while next_order:
             another = input(f"Try another drink? (y/n): ").lower()
             if another == "n":
                 next_order = False
+    
+    
+    # TODO: print help menu
+    elif user_input == 'help':
+        table = PrettyTable()
+        table.field_names = ('Commands', 'Description')
+        for k, v in commands.items():
+            # print(f'"{k}": {v}')
+            table.add_row([k, v])
+        print(table)
 
     # TODO: print report of resources when requested
     elif user_input == "report":
@@ -124,8 +144,12 @@ while next_order:
 
     # TODO: display entire menu
     elif user_input == "menu":
+        menu = PrettyTable()
+        menu.field_names = ('Coffee', 'Price')
         for entry in MENU:
-            print(f"{entry.upper()}\nCost: ${MENU[entry]['cost']}")
+            row = [f"{entry.title()}", f"${MENU[entry]['cost']}"]
+            menu.add_row(row)
+        print(menu)
 
     # TODO: allow resources to be restocked
     elif user_input == "restock":
